@@ -60,7 +60,10 @@ button:hover {
 
 
 .locations:hover .popover, .amenities:hover .popover  {
-    visibility: hidden;
+    display: block;
+}
+.locations .popover, .amenities .popover {
+    display: none;
 }
 .popover h2 {
     margin-bottom: 1px;
